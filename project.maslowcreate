@@ -77,44 +77,37 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 60,
+                    "y": 158,
+                    "uniqueID": 832947,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 226,
+                    "y": 72,
+                    "uniqueID": 198410,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 40
+                        }
+                    ],
+                    "currentEquation": "L/2 - 2"
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 255,
-                    "y": 131,
+                    "x": 306,
+                    "y": 176,
                     "uniqueID": 229067,
                     "ioValues": [
                         {
                             "name": "diameter",
                             "ioValue": 2.55
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 194,
-                    "y": 227,
-                    "uniqueID": 832947,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 419,
-                    "y": 188,
-                    "uniqueID": 181814,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -127,7 +120,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 18
                         },
                         {
                             "name": "yDist",
@@ -199,6 +192,18 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 832947,
+                    "ap2ID": 198410
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 198410,
+                    "ap2ID": 791644
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
