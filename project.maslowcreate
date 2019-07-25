@@ -72,10 +72,23 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Constant",
+                    "name": "Length",
+                    "x": 106,
+                    "y": 186,
+                    "uniqueID": 249942,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 258,
-                    "y": 128,
+                    "x": 225,
+                    "y": 57,
                     "uniqueID": 988091,
                     "ioValues": [
                         {
@@ -89,23 +102,24 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
-                    "name": "Length",
-                    "x": 210,
-                    "y": 222,
-                    "uniqueID": 249942,
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 290,
+                    "y": 167,
+                    "uniqueID": 345715,
                     "ioValues": [
                         {
-                            "name": "number",
-                            "ioValue": 10
+                            "name": "L",
+                            "ioValue": 40
                         }
-                    ]
+                    ],
+                    "currentEquation": "L/2 - 7.5"
                 },
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 501,
-                    "y": 92,
+                    "x": 482,
+                    "y": 55,
                     "uniqueID": 572440,
                     "ioValues": [
                         {
@@ -117,8 +131,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 837,
-                    "y": 131,
+                    "x": 804,
+                    "y": 69,
                     "uniqueID": 728941,
                     "ioValues": [
                         {
@@ -144,6 +158,18 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "x length",
+                    "ap1ID": 249942,
+                    "ap2ID": 988091
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "L",
+                    "ap1ID": 249942,
+                    "ap2ID": 345715
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
