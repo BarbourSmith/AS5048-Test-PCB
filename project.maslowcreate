@@ -2,12 +2,74 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "AS5048 Test PCB",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 275107,
+            "name": "Chip",
+            "x": 333,
+            "y": 118,
+            "uniqueID": 460263,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 331,
+                    "y": 69,
+                    "uniqueID": 245141,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 6.4
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 565,
+                    "y": 123,
+                    "uniqueID": 414126,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 245141,
+                    "ap2ID": 414126
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 414126
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 337,
+            "y": 171,
+            "uniqueID": 175518,
+            "ioValues": [],
+            "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Output",
@@ -18,6 +80,88 @@
                 }
             ],
             "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "AS5048 Test PCB",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 275107,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 234,
+                    "y": 94,
+                    "uniqueID": 784404,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Chip",
+                    "x": 333,
+                    "y": 118,
+                    "uniqueID": 460263,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 337,
+                    "y": 171,
+                    "uniqueID": 175518,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 803,
+                    "y": 77,
+                    "uniqueID": 106455,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 751069",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 864821",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 751069",
+                    "ap1ID": 460263,
+                    "ap2ID": 106455
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 106455
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
