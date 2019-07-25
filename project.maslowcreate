@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 638,
-            "y": 181,
+            "x": 513,
+            "y": 243,
             "uniqueID": 742617,
             "ioValues": [],
             "topLevel": false,
@@ -122,7 +122,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 1
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -287,9 +287,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 638,
-                    "y": 181,
+                    "x": 513,
+                    "y": 243,
                     "uniqueID": 742617,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "CutAway",
+                    "name": "Cut Away",
+                    "x": 736,
+                    "y": 197,
+                    "uniqueID": 190985,
                     "ioValues": []
                 },
                 {
@@ -310,6 +318,27 @@
                         {
                             "name": "zDist",
                             "ioValue": -1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 969,
+                    "y": 182,
+                    "uniqueID": 569097,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 729762",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 195268",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 302722",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -353,9 +382,27 @@
                     "ap2ID": 728941
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 742617,
+                    "ap2ID": 190985
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 729762",
+                    "ap1ID": 190985,
+                    "ap2ID": 569097
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 728941
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 195268",
+                    "ap1ID": 728941,
+                    "ap2ID": 569097
                 }
             ],
             "fileTypeVersion": 1
