@@ -536,8 +536,8 @@
         {
             "atomType": "Molecule",
             "name": "Headers",
-            "x": 214,
-            "y": 175,
+            "x": 211,
+            "y": 179,
             "uniqueID": 298894,
             "ioValues": [
                 {
@@ -660,8 +660,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 945,
-                    "y": 50,
+                    "x": 951,
+                    "y": 56,
                     "uniqueID": 574532,
                     "ioValues": [
                         {
@@ -669,7 +669,7 @@
                             "ioValue": 28
                         }
                     ],
-                    "currentEquation": "(L/-2 - 7.5) + 3.5"
+                    "currentEquation": "(L/-2 - 7.5) + 5"
                 },
                 {
                     "atomType": "Translate",
@@ -680,7 +680,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -18
+                            "ioValue": -16.5
                         },
                         {
                             "name": "yDist",
@@ -803,8 +803,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Headers",
-                    "x": 214,
-                    "y": 175,
+                    "x": 211,
+                    "y": 179,
                     "uniqueID": 298894,
                     "ioValues": [
                         {
