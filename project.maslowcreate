@@ -536,8 +536,8 @@
         {
             "atomType": "Molecule",
             "name": "Headers",
-            "x": 211,
-            "y": 179,
+            "x": 213,
+            "y": 174,
             "uniqueID": 298894,
             "ioValues": [
                 {
@@ -573,7 +573,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 20
+                            "ioValue": 14
                         },
                         {
                             "name": "y length",
@@ -616,7 +616,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 10
+                            "ioValue": 7
                         },
                         {
                             "name": "yDist",
@@ -669,7 +669,7 @@
                             "ioValue": 28
                         }
                     ],
-                    "currentEquation": "(L/-2 - 7.5) + 5"
+                    "currentEquation": "(L/-2 - 7.5) + 4.75"
                 },
                 {
                     "atomType": "Translate",
@@ -680,7 +680,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -16.5
+                            "ioValue": -16.75
                         },
                         {
                             "name": "yDist",
@@ -803,8 +803,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Headers",
-                    "x": 211,
-                    "y": 179,
+                    "x": 213,
+                    "y": 174,
                     "uniqueID": 298894,
                     "ioValues": [
                         {
