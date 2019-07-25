@@ -64,6 +64,112 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Mounting Holes",
+            "x": 638,
+            "y": 181,
+            "uniqueID": 742617,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 255,
+                    "y": 131,
+                    "uniqueID": 229067,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 2.55
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 419,
+                    "y": 188,
+                    "uniqueID": 181814,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 476,
+                    "y": 75,
+                    "uniqueID": 791644,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 747,
+                    "y": 98,
+                    "uniqueID": 453875,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 229067,
+                    "ap2ID": 791644
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 791644,
+                    "ap2ID": 453875
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 453875
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "PCB",
             "x": 217,
             "y": 100,
@@ -127,6 +233,14 @@
                             "ioValue": 1
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 638,
+                    "y": 181,
+                    "uniqueID": 742617,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
