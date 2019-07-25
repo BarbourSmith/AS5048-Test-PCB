@@ -548,14 +548,6 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Length",
-                    "x": 68,
-                    "y": 135,
-                    "uniqueID": 693454,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
                     "x": 178,
@@ -658,15 +650,37 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 797,
+                    "y": 54,
+                    "uniqueID": 693454,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 947,
+                    "y": 42,
+                    "uniqueID": 574532,
+                    "ioValues": [
+                        {
+                            "name": "L",
+                            "ioValue": 28
+                        }
+                    ],
+                    "currentEquation": "L/-2"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 952,
-                    "y": 169,
+                    "x": 1053,
+                    "y": 126,
                     "uniqueID": 419901,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -14
                         },
                         {
                             "name": "yDist",
@@ -716,6 +730,29 @@
                     "ap2Name": "3D shape 176126",
                     "ap1ID": 952437,
                     "ap2ID": 687531
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 687531,
+                    "ap2ID": 419901
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "L",
+                    "ap1ID": 693454,
+                    "ap2ID": 574532
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 574532,
+                    "ap2ID": 419901
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 419901
                 }
             ],
             "fileTypeVersion": 1
