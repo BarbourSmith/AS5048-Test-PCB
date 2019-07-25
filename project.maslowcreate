@@ -113,7 +113,7 @@
                             "ioValue": 40
                         }
                     ],
-                    "currentEquation": "L/2 - 7.5"
+                    "currentEquation": "L/-2 + 7.5"
                 },
                 {
                     "atomType": "Extrude",
@@ -137,7 +137,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -12.5
                         },
                         {
                             "name": "yDist",
@@ -175,6 +175,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 988091,
                     "ap2ID": 572440
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 345715,
+                    "ap2ID": 728941
                 },
                 {
                     "ap1Name": "geometry",
