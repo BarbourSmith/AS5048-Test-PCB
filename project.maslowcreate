@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 212,
-            "y": 102,
+            "x": 213,
+            "y": 99,
             "uniqueID": 175518,
             "ioValues": [],
             "topLevel": false,
@@ -74,17 +74,64 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 247,
-                    "y": 147,
+                    "x": 258,
+                    "y": 128,
                     "uniqueID": 988091,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 40
                         },
                         {
                             "name": "y length",
                             "ioValue": 22
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Length",
+                    "x": 210,
+                    "y": 222,
+                    "uniqueID": 249942,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 501,
+                    "y": 92,
+                    "uniqueID": 572440,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 1
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 837,
+                    "y": 131,
+                    "uniqueID": 728941,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -1
                         }
                     ]
                 },
@@ -96,7 +143,25 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 988091,
+                    "ap2ID": 572440
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 572440,
+                    "ap2ID": 728941
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 728941
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -139,8 +204,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 212,
-                    "y": 102,
+                    "x": 213,
+                    "y": 99,
                     "uniqueID": 175518,
                     "ioValues": []
                 },
@@ -166,6 +231,10 @@
                         {
                             "name": "3D shape 864821",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 624391",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -182,6 +251,12 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 751069",
                     "ap1ID": 460263,
+                    "ap2ID": 106455
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 864821",
+                    "ap1ID": 175518,
                     "ap2ID": 106455
                 },
                 {
