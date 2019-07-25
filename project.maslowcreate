@@ -65,10 +65,15 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 513,
-            "y": 243,
+            "x": 403,
+            "y": 250,
             "uniqueID": 742617,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 40
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
                 {
@@ -83,6 +88,14 @@
                             "ioValue": 2.55
                         }
                     ]
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 194,
+                    "y": 227,
+                    "uniqueID": 832947,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -272,6 +285,19 @@
                     "currentEquation": "L/-2 + 7.5"
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 403,
+                    "y": 250,
+                    "uniqueID": 742617,
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 40
+                        }
+                    ]
+                },
+                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 482,
@@ -283,14 +309,6 @@
                             "ioValue": 1
                         }
                     ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Mounting Holes",
-                    "x": 513,
-                    "y": 243,
-                    "uniqueID": 742617,
-                    "ioValues": []
                 },
                 {
                     "atomType": "CutAway",
@@ -324,20 +342,20 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 969,
-                    "y": 182,
+                    "x": 1079,
+                    "y": 117,
                     "uniqueID": 569097,
                     "ioValues": [
                         {
-                            "name": "3D shape 729762",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 195268",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 302722",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 498787",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 479096",
                             "ioValue": 10
                         }
                     ]
@@ -364,6 +382,12 @@
                     "ap2ID": 345715
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 249942,
+                    "ap2ID": 742617
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 988091,
@@ -376,12 +400,6 @@
                     "ap2ID": 728941
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 572440,
-                    "ap2ID": 728941
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 742617,
@@ -389,20 +407,26 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 729762",
+                    "ap2Name": "geometry",
+                    "ap1ID": 572440,
+                    "ap2ID": 728941
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 498787",
                     "ap1ID": 190985,
                     "ap2ID": 569097
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 728941
+                    "ap2Name": "3D shape 302722",
+                    "ap1ID": 728941,
+                    "ap2ID": 569097
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 195268",
-                    "ap1ID": 728941,
-                    "ap2ID": 569097
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 569097
                 }
             ],
             "fileTypeVersion": 1
