@@ -323,12 +323,25 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 216,
-            "y": 108,
+            "x": 217,
+            "y": 105,
             "uniqueID": 175518,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 28
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 47,
+                    "y": 115,
+                    "uniqueID": 611966,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Constant",
                     "name": "Length",
@@ -523,12 +536,25 @@
         {
             "atomType": "Molecule",
             "name": "Headers",
-            "x": 220,
+            "x": 218,
             "y": 171,
             "uniqueID": 298894,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Length",
+                    "ioValue": 28
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Length",
+                    "x": 68,
+                    "y": 135,
+                    "uniqueID": 693454,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
@@ -613,8 +639,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 869,
-                    "y": 152,
+                    "x": 710,
+                    "y": 112,
                     "uniqueID": 687531,
                     "ioValues": [
                         {
@@ -628,6 +654,27 @@
                         {
                             "name": "3D shape 974078",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 952,
+                    "y": 169,
+                    "uniqueID": 419901,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -669,11 +716,6 @@
                     "ap2Name": "3D shape 176126",
                     "ap1ID": 952437,
                     "ap2ID": 687531
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 687531
                 }
             ],
             "fileTypeVersion": 1
@@ -689,14 +731,14 @@
             "allAtoms": [
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "PCB Length",
                     "x": 83,
                     "y": 154,
                     "uniqueID": 109787,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 28
                         }
                     ]
                 },
@@ -711,18 +753,28 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 216,
-                    "y": 108,
+                    "x": 217,
+                    "y": 105,
                     "uniqueID": 175518,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 28
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Headers",
-                    "x": 220,
+                    "x": 218,
                     "y": 171,
                     "uniqueID": 298894,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Length",
+                            "ioValue": 28
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -758,6 +810,18 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 109787,
+                    "ap2ID": 175518
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Length",
+                    "ap1ID": 109787,
+                    "ap2ID": 298894
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 751069",
