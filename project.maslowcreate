@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Chip",
-            "x": 333,
-            "y": 118,
+            "x": 207,
+            "y": 41,
             "uniqueID": 460263,
             "ioValues": [],
             "topLevel": false,
@@ -64,10 +64,47 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 337,
-            "y": 171,
+            "name": "PCB",
+            "x": 212,
+            "y": 102,
             "uniqueID": 175518,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Rectangle",
+                    "name": "Rectangle",
+                    "x": 267,
+                    "y": 176,
+                    "uniqueID": 988091,
+                    "ioValues": [
+                        {
+                            "name": "x length",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "y length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Headers",
+            "x": 219,
+            "y": 167,
+            "uniqueID": 298894,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
@@ -92,36 +129,27 @@
             "topLevel": true,
             "allAtoms": [
                 {
-                    "atomType": "Rectangle",
-                    "name": "Rectangle",
-                    "x": 234,
-                    "y": 94,
-                    "uniqueID": 784404,
-                    "ioValues": [
-                        {
-                            "name": "x length",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "y length",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Chip",
-                    "x": 333,
-                    "y": 118,
+                    "x": 207,
+                    "y": 41,
                     "uniqueID": 460263,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 337,
-                    "y": 171,
+                    "name": "PCB",
+                    "x": 212,
+                    "y": 102,
                     "uniqueID": 175518,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Headers",
+                    "x": 219,
+                    "y": 167,
+                    "uniqueID": 298894,
                     "ioValues": []
                 },
                 {
