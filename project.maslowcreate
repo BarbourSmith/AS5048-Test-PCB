@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 213,
-            "y": 99,
+            "x": 217,
+            "y": 100,
             "uniqueID": 175518,
             "ioValues": [],
             "topLevel": false,
@@ -236,8 +236,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 213,
-                    "y": 99,
+                    "x": 217,
+                    "y": 100,
                     "uniqueID": 175518,
                     "ioValues": []
                 },
