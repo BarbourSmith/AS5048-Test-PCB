@@ -688,6 +688,19 @@
             "topLevel": true,
             "allAtoms": [
                 {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 83,
+                    "y": 154,
+                    "uniqueID": 109787,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Chip",
                     "x": 207,
