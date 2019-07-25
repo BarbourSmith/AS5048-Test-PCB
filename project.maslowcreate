@@ -323,8 +323,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 217,
-            "y": 105,
+            "x": 215,
+            "y": 103,
             "uniqueID": 175518,
             "ioValues": [
                 {
@@ -444,8 +444,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1213,
-                    "y": 149,
+                    "x": 1004,
+                    "y": 120,
                     "uniqueID": 728941,
                     "ioValues": [
                         {
@@ -536,8 +536,8 @@
         {
             "atomType": "Molecule",
             "name": "Headers",
-            "x": 218,
-            "y": 171,
+            "x": 217,
+            "y": 180,
             "uniqueID": 298894,
             "ioValues": [
                 {
@@ -660,8 +660,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 947,
-                    "y": 42,
+                    "x": 945,
+                    "y": 50,
                     "uniqueID": 574532,
                     "ioValues": [
                         {
@@ -669,7 +669,7 @@
                             "ioValue": 28
                         }
                     ],
-                    "currentEquation": "L/-2"
+                    "currentEquation": "L/-2 - 7.5"
                 },
                 {
                     "atomType": "Translate",
@@ -680,7 +680,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -14
+                            "ioValue": -21.5
                         },
                         {
                             "name": "yDist",
@@ -790,8 +790,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 217,
-                    "y": 105,
+                    "x": 215,
+                    "y": 103,
                     "uniqueID": 175518,
                     "ioValues": [
                         {
@@ -803,8 +803,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Headers",
-                    "x": 218,
-                    "y": 171,
+                    "x": 217,
+                    "y": 180,
                     "uniqueID": 298894,
                     "ioValues": [
                         {
