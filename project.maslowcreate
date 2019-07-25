@@ -65,13 +65,13 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 493,
-            "y": 237,
+            "x": 428,
+            "y": 128,
             "uniqueID": 742617,
             "ioValues": [
                 {
                     "name": "Length",
-                    "ioValue": 30
+                    "ioValue": 28
                 }
             ],
             "topLevel": false,
@@ -93,7 +93,7 @@
                     "ioValues": [
                         {
                             "name": "L",
-                            "ioValue": 30
+                            "ioValue": 28
                         }
                     ],
                     "currentEquation": "L/2 - 2"
@@ -120,7 +120,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 13
+                            "ioValue": 12
                         },
                         {
                             "name": "yDist",
@@ -323,8 +323,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 217,
-            "y": 105,
+            "x": 216,
+            "y": 108,
             "uniqueID": 175518,
             "ioValues": [],
             "topLevel": false,
@@ -338,7 +338,7 @@
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 30
+                            "ioValue": 28
                         }
                     ]
                 },
@@ -351,7 +351,7 @@
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 30
+                            "ioValue": 28
                         },
                         {
                             "name": "y length",
@@ -360,18 +360,17 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 290,
-                    "y": 167,
-                    "uniqueID": 345715,
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 428,
+                    "y": 128,
+                    "uniqueID": 742617,
                     "ioValues": [
                         {
-                            "name": "L",
-                            "ioValue": 30
+                            "name": "Length",
+                            "ioValue": 28
                         }
-                    ],
-                    "currentEquation": "L/-2 + 7.5"
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -387,23 +386,24 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Mounting Holes",
-                    "x": 493,
-                    "y": 237,
-                    "uniqueID": 742617,
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 533,
+                    "y": 208,
+                    "uniqueID": 345715,
                     "ioValues": [
                         {
-                            "name": "Length",
-                            "ioValue": 30
+                            "name": "L",
+                            "ioValue": 28
                         }
-                    ]
+                    ],
+                    "currentEquation": "L/-2 + 7.5"
                 },
                 {
                     "atomType": "CutAway",
                     "name": "Cut Away",
-                    "x": 715,
-                    "y": 194,
+                    "x": 630,
+                    "y": 112,
                     "uniqueID": 141574,
                     "ioValues": []
                 },
@@ -437,7 +437,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -7.5
+                            "ioValue": -6.5
                         },
                         {
                             "name": "yDist",
@@ -483,10 +483,10 @@
                     "ap2ID": 572440
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "xDist",
-                    "ap1ID": 345715,
-                    "ap2ID": 728941
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 742617,
+                    "ap2ID": 141574
                 },
                 {
                     "ap1Name": "geometry",
@@ -495,10 +495,10 @@
                     "ap2ID": 899239
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 742617,
-                    "ap2ID": 141574
+                    "ap1Name": "result",
+                    "ap2Name": "xDist",
+                    "ap1ID": 345715,
+                    "ap2ID": 728941
                 },
                 {
                     "ap1Name": "geometry",
@@ -560,8 +560,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 217,
-                    "y": 105,
+                    "x": 216,
+                    "y": 108,
                     "uniqueID": 175518,
                     "ioValues": []
                 },
