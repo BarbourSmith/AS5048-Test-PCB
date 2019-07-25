@@ -316,6 +316,14 @@
                     ]
                 },
                 {
+                    "atomType": "CutAway",
+                    "name": "Cut Away",
+                    "x": 614,
+                    "y": 197,
+                    "uniqueID": 190985,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 697,
@@ -335,14 +343,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "CutAway",
-                    "name": "Cut Away",
-                    "x": 736,
-                    "y": 197,
-                    "uniqueID": 190985,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -418,12 +418,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 899239,
-                    "ap2ID": 728941
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 498787",
                     "ap1ID": 190985,
                     "ap2ID": 569097
@@ -433,6 +427,12 @@
                     "ap2Name": "3D shape 641859",
                     "ap1ID": 190985,
                     "ap2ID": 899239
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 899239,
+                    "ap2ID": 728941
                 },
                 {
                     "ap1Name": "geometry",
