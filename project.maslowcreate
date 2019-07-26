@@ -537,7 +537,7 @@
             "atomType": "Molecule",
             "name": "Headers",
             "x": 213,
-            "y": 174,
+            "y": 177,
             "uniqueID": 298894,
             "ioValues": [
                 {
@@ -681,7 +681,7 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1053,
+                    "x": 1004,
                     "y": 126,
                     "uniqueID": 419901,
                     "ioValues": [
@@ -804,7 +804,7 @@
                     "atomType": "Molecule",
                     "name": "Headers",
                     "x": 213,
-                    "y": 174,
+                    "y": 177,
                     "uniqueID": 298894,
                     "ioValues": [
                         {
@@ -819,15 +819,17 @@
                     "x": 385,
                     "y": 96,
                     "uniqueID": 793037,
-                    "ioValues": []
+                    "ioValues": [],
+                    "selectedColorIndex": "1"
                 },
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 549,
-                    "y": 20,
+                    "x": 505,
+                    "y": 40,
                     "uniqueID": 354323,
-                    "ioValues": []
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
                 },
                 {
                     "atomType": "Assembly",
