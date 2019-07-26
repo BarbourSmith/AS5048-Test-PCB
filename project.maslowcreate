@@ -608,6 +608,15 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 556,
+                    "y": 55,
+                    "uniqueID": 344264,
+                    "ioValues": [],
+                    "selectedColorIndex": "3"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 561,
@@ -636,15 +645,15 @@
                     "uniqueID": 687531,
                     "ioValues": [
                         {
-                            "name": "3D shape 874177",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 176126",
                             "ioValue": 10
                         },
                         {
                             "name": "3D shape 974078",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 149847",
                             "ioValue": 10
                         }
                     ]
@@ -721,8 +730,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 874177",
+                    "ap2Name": "geometry",
                     "ap1ID": 677698,
+                    "ap2ID": 344264
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 974078",
+                    "ap1ID": 344264,
                     "ap2ID": 687531
                 },
                 {
