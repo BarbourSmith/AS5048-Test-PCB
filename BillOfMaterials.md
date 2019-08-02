@@ -2,3 +2,5 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Encoder PCB|1|$7.00|www.example.com|
+|Total: |1|$7.00| |

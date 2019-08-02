@@ -42,7 +42,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -225,13 +225,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 1035,
@@ -243,6 +236,13 @@
                             "ioValue": 1
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -442,13 +442,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1004,
@@ -468,6 +461,13 @@
                             "ioValue": -1
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -536,8 +536,8 @@
         {
             "atomType": "Molecule",
             "name": "Headers",
-            "x": 213,
-            "y": 177,
+            "x": 207,
+            "y": 175,
             "uniqueID": 298894,
             "ioValues": [
                 {
@@ -584,8 +584,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 315,
-                    "y": 190,
+                    "x": 314,
+                    "y": 201,
                     "uniqueID": 310931,
                     "ioValues": [
                         {
@@ -597,13 +597,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 400,
-                    "y": 60,
+                    "x": 394,
+                    "y": 66,
                     "uniqueID": 677698,
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 6
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -681,13 +681,6 @@
                     "currentEquation": "(L/-2 - 7.5) + 4.75"
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1004,
@@ -707,6 +700,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -818,8 +818,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Headers",
-                    "x": 213,
-                    "y": 177,
+                    "x": 207,
+                    "y": 175,
                     "uniqueID": 298894,
                     "ioValues": [
                         {
@@ -872,9 +872,24 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1059,
+                    "y": 101,
+                    "uniqueID": 677301,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Encoder PCB",
+                        "numberNeeded": 1,
+                        "costUSD": 7,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -924,8 +939,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 106455,
+                    "ap2ID": 677301
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 106455
+                    "ap1ID": 677301
                 }
             ],
             "fileTypeVersion": 1
