@@ -42,8 +42,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
-                    "y": 152,
+                    "x": 1075,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -240,8 +240,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
-                    "y": 152,
+                    "x": 1075,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -324,7 +324,7 @@
             "atomType": "Molecule",
             "name": "PCB",
             "x": 212,
-            "y": 98,
+            "y": 107,
             "uniqueID": 175518,
             "ioValues": [
                 {
@@ -421,6 +421,27 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 811,
+                    "y": 54,
+                    "uniqueID": 881964,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 523095",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 196520",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 181394",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 816,
@@ -442,31 +463,10 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 844,
-                    "y": 50,
-                    "uniqueID": 899239,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 476390",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 829345",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 192656",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 974,
-                    "y": 152,
+                    "x": 1075,
+                    "y": 164,
                     "ioValues": []
                 }
             ],
@@ -503,9 +503,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 476390",
+                    "ap2Name": "3D shape 523095",
                     "ap1ID": 572440,
-                    "ap2ID": 899239
+                    "ap2ID": 881964
                 },
                 {
                     "ap1Name": "result",
@@ -521,14 +521,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 728941
+                    "ap2Name": "3D shape 196520",
+                    "ap1ID": 141574,
+                    "ap2ID": 881964
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 899239,
-                    "ap2ID": 728941
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 728941
                 }
             ],
             "fileTypeVersion": 1
@@ -681,13 +681,6 @@
                     "currentEquation": "(L/-2 - 7.5) + 4.75"
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 152,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1004,
@@ -707,6 +700,13 @@
                             "ioValue": 0
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -806,7 +806,7 @@
                     "atomType": "Molecule",
                     "name": "PCB",
                     "x": 212,
-                    "y": 98,
+                    "y": 107,
                     "uniqueID": 175518,
                     "ioValues": [
                         {
@@ -872,13 +872,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 974,
-                    "y": 152,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
                     "x": 1004,
@@ -892,6 +885,13 @@
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
