@@ -4,3 +4,5 @@
  |----|----------|-----|-----|
 |Encoder PCB|1|$7.00|www.example.com|
 |Total: |1|$7.00| |
+
+ Three times COG MSRP: $21.00
