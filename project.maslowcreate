@@ -42,8 +42,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 152,
                     "ioValues": []
                 }
             ],
@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 428,
-            "y": 128,
+            "x": 432.35555555555555,
+            "y": 126.52088888888889,
             "uniqueID": 742617,
             "ioValues": [
                 {
@@ -177,8 +177,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 698,
-                    "y": 122,
+                    "x": 722.7164444444444,
+                    "y": 130.1617777777778,
                     "uniqueID": 800197,
                     "ioValues": [
                         {
@@ -198,8 +198,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 759,
-                    "y": 65,
+                    "x": 801.9057777777778,
+                    "y": 48.24177777777778,
                     "uniqueID": 593233,
                     "ioValues": [
                         {
@@ -227,8 +227,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 1035,
-                    "y": 81,
+                    "x": 891.1075555555556,
+                    "y": 77.36888888888889,
                     "uniqueID": 453875,
                     "ioValues": [
                         {
@@ -240,8 +240,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 152,
                     "ioValues": []
                 }
             ],
@@ -323,8 +323,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 215,
-            "y": 103,
+            "x": 212,
+            "y": 98,
             "uniqueID": 175518,
             "ioValues": [
                 {
@@ -375,8 +375,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 428,
-                    "y": 128,
+                    "x": 432.35555555555555,
+                    "y": 126.52088888888889,
                     "uniqueID": 742617,
                     "ioValues": [
                         {
@@ -421,6 +421,27 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 816,
+                    "y": 149,
+                    "uniqueID": 728941,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -6.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": -1
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 844,
@@ -442,31 +463,10 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 1004,
-                    "y": 120,
-                    "uniqueID": 728941,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -6.5
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": -1
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 152,
                     "ioValues": []
                 }
             ],
@@ -521,14 +521,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 899239,
-                    "ap2ID": 728941
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 728941
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 728941
+                    "ap2Name": "geometry",
+                    "ap1ID": 899239,
+                    "ap2ID": 728941
                 }
             ],
             "fileTypeVersion": 1
@@ -681,6 +681,13 @@
                     "currentEquation": "(L/-2 - 7.5) + 4.75"
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 974,
+                    "y": 152,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1004,
@@ -700,13 +707,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -805,8 +805,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 215,
-                    "y": 103,
+                    "x": 212,
+                    "y": 98,
                     "uniqueID": 175518,
                     "ioValues": [
                         {
@@ -872,9 +872,16 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 974,
+                    "y": 152,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1059,
+                    "x": 1004,
                     "y": 101,
                     "uniqueID": 677301,
                     "ioValues": [],
@@ -885,13 +892,6 @@
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
