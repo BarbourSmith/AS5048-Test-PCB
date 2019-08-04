@@ -6,11 +6,11 @@ vertex -3.2 -2 0
 vertex -2.75 -2 0
 endloop
 endfacet
-facet normal 0 0 -1
+facet normal 0 0 -0.9999999999999999
 outer loop
-vertex -13.25 -5 0
 vertex -3.2 -2 0
 vertex -2.75 -5 0
+vertex -13.25 -5 0
 endloop
 endfacet
 facet normal 0 0 -1
@@ -4449,104 +4449,6 @@ outer loop
 vertex -20.5 -11 -1
 vertex -20.5 11 0
 vertex -20.5 11 -1
-endloop
-endfacet
-facet normal 0 0 1
-outer loop
-vertex -3.2 -2 1
-vertex -2.75 2 1
-vertex -3.2 2 1
-endloop
-endfacet
-facet normal 0 0 1
-outer loop
-vertex -3.2 -2 1
-vertex 3.2 2 1
-vertex -2.75 2 1
-endloop
-endfacet
-facet normal 0 0 1
-outer loop
-vertex 3.2 2 1
-vertex -3.2 -2 1
-vertex 3.2 -2 1
-endloop
-endfacet
-facet normal 0 0 -1
-outer loop
-vertex 3.2 -2 0
-vertex -3.2 2 0
-vertex 3.2 2 0
-endloop
-endfacet
-facet normal 0 0 -1
-outer loop
-vertex -3.2 2 0
-vertex 3.2 -2 0
-vertex -3.2 -2 0
-endloop
-endfacet
-facet normal 0 -1 0
-outer loop
-vertex -3.2 -2 0
-vertex 3.2 -2 1
-vertex -3.2 -2 1
-endloop
-endfacet
-facet normal 0 -1 0
-outer loop
-vertex 3.2 -2 1
-vertex -3.2 -2 0
-vertex 3.2 -2 0
-endloop
-endfacet
-facet normal -1 0 0
-outer loop
-vertex -3.2 2 0
-vertex -3.2 -2 1
-vertex -3.2 2 1
-endloop
-endfacet
-facet normal -1 0 0
-outer loop
-vertex -3.2 -2 1
-vertex -3.2 2 0
-vertex -3.2 -2 0
-endloop
-endfacet
-facet normal 0 1 0
-outer loop
-vertex 3.2 2 0
-vertex -2.75 2 1
-vertex 3.2 2 1
-endloop
-endfacet
-facet normal 0 1 0
-outer loop
-vertex 3.2 2 0
-vertex -3.2 2 1
-vertex -2.75 2 1
-endloop
-endfacet
-facet normal 0 1 0
-outer loop
-vertex -3.2 2 1
-vertex 3.2 2 0
-vertex -3.2 2 0
-endloop
-endfacet
-facet normal 1 0 0
-outer loop
-vertex 3.2 -2 0
-vertex 3.2 2 1
-vertex 3.2 -2 1
-endloop
-endfacet
-facet normal 1 0 0
-outer loop
-vertex 3.2 2 1
-vertex 3.2 -2 0
-vertex 3.2 2 0
 endloop
 endfacet
 endsolid JSxCAD
