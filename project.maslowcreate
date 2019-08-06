@@ -65,8 +65,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 432.35555555555555,
-            "y": 126.52088888888889,
+            "x": 429,
+            "y": 135,
             "uniqueID": 742617,
             "ioValues": [
                 {
@@ -107,7 +107,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 2.55
+                            "ioValue": 2.1
                         }
                     ]
                 },
@@ -323,8 +323,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 204,
-            "y": 114,
+            "x": 210,
+            "y": 123,
             "uniqueID": 175518,
             "ioValues": [
                 {
@@ -358,8 +358,8 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 225,
-                    "y": 57,
+                    "x": 223,
+                    "y": 58,
                     "uniqueID": 988091,
                     "ioValues": [
                         {
@@ -375,8 +375,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 432.35555555555555,
-                    "y": 126.52088888888889,
+                    "x": 429,
+                    "y": 135,
                     "uniqueID": 742617,
                     "ioValues": [
                         {
@@ -778,8 +778,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 204,
-                    "y": 114,
+                    "x": 210,
+                    "y": 123,
                     "uniqueID": 175518,
                     "ioValues": [
                         {
