@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Encoder PCB|1|$7.00|www.example.com|
-|Total: |1|$7.00| |
+|Encoder PCB|4|$28.00|www.example.com|
+|Total: |4|$28.00| |
 
- 3xCOG MSRP: $21.00
+ 3xCOG MSRP: $84.00
