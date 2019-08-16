@@ -222,7 +222,8 @@
                             "name": "3D shape 349450",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Extrude",
@@ -629,7 +630,8 @@
                             "name": "3D shape 149847",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Input",
@@ -842,7 +844,8 @@
                             "name": "3D shape 757828",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": false
                 },
                 {
                     "atomType": "Add BOM Tag",
