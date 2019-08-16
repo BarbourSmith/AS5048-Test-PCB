@@ -323,8 +323,8 @@
         {
             "atomType": "Molecule",
             "name": "PCB",
-            "x": 210,
-            "y": 123,
+            "x": 208,
+            "y": 119,
             "uniqueID": 175518,
             "ioValues": [
                 {
@@ -778,8 +778,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "PCB",
-                    "x": 210,
-                    "y": 123,
+                    "x": 208,
+                    "y": 119,
                     "uniqueID": 175518,
                     "ioValues": [
                         {
