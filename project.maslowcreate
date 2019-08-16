@@ -845,7 +845,7 @@
                             "ioValue": 10
                         }
                     ],
-                    "removeCutawayGeometry": false
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Add BOM Tag",
