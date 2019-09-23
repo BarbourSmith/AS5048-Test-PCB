@@ -82,7 +82,12 @@
                     "x": 60,
                     "y": 158,
                     "uniqueID": 832947,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -202,6 +207,10 @@
                     "y": 48.24177777777778,
                     "uniqueID": 593233,
                     "ioValues": [
+                        {
+                            "name": "3D shape 349450",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 133451",
                             "ioValue": 10
@@ -341,7 +350,12 @@
                     "x": 47,
                     "y": 115,
                     "uniqueID": 611966,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Constant",
@@ -619,6 +633,10 @@
                     "uniqueID": 687531,
                     "ioValues": [
                         {
+                            "name": "3D shape 149847",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 176126",
                             "ioValue": 10
                         },
@@ -639,7 +657,12 @@
                     "x": 797,
                     "y": 54,
                     "uniqueID": 693454,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -828,6 +851,10 @@
                     "y": 108,
                     "uniqueID": 106455,
                     "ioValues": [
+                        {
+                            "name": "3D shape 757828",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 624391",
                             "ioValue": 10
